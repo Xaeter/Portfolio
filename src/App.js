@@ -4,6 +4,8 @@ import Heading from './components/heading';
 import Hero from './components/hero';
 import styled from 'styled-components';
 import AboutMe from './components/aboutme';
+import Works from './components/works';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -14,6 +16,12 @@ function App() {
       </HHContainer>
       <div id='about_me'>
         <AboutMe />
+      </div>
+      <div id='works'>
+        <Works />
+      </div>
+      <div id='contact'>
+        <Contact />
       </div>
     </Container>
   );
