@@ -8,6 +8,7 @@
 
 body {
   background-color: var(--babyPowder);
+  /* overflow-x: hidden */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');

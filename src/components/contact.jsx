@@ -23,9 +23,9 @@ export default function Contact() {
         </a>
       </Medias>
       <Navigations>
+      <a href="#home">Home</a>
         <a href="#about_me">About Me</a>
         <a href="#works">Works</a>
-        <a href="#contact">Contact</a>
       </Navigations>
       <Copyright>
         <p>Copyright 2024 | Designed by: Krishia T. Sayson</p>
@@ -77,7 +77,7 @@ const Navigations = styled.div`
 const Copyright = styled.div`
   padding: 1em;
   background-color: #00000015;
-  width: 100%;
+  /* width: 100%; */
   p{
     color: white;
     margin: 0;

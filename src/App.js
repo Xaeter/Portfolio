@@ -10,7 +10,7 @@ import Contact from './components/contact';
 function App() {
   return (
     <Container>
-      <HHContainer>
+      <HHContainer id="home">
         <Heading />
         <Hero />
       </HHContainer>

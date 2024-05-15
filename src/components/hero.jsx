@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import krishia from "../images/krishia_profile.png";
 import art1 from "../images/artwork1.png";
+import art_squat from "../images/art-squat.png";
 
 export default function Hero() {
   return (
@@ -18,7 +19,7 @@ export default function Hero() {
       <Artworks>
         <Art>
           <div></div>
-          <img src={art1} alt="" />
+          <img src={art_squat} alt="" />
         </Art>
         <Art>
           <div></div>
