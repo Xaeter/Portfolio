@@ -225,6 +225,7 @@ const Container = styled.div`
 
 const Card = styled.div`
   background-color: #fdfff7d3;
+  width: 40%;
   min-width: 500px;
   height: 45%;
   border-radius: 20px;
